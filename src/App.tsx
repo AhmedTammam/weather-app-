@@ -1,7 +1,12 @@
-import React from "react";
+import { Layout } from "components/layout";
+import { WeatherPage } from "pages/weather-page";
 
 function App() {
-  return <div>Weather App</div>;
+  return (
+    <Layout>
+      <WeatherPage />
+    </Layout>
+  );
 }
 
 export default App;
