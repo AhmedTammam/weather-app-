@@ -8,7 +8,7 @@ export const Header = () => (
     justifyContent="space-between"
     flexDirection={["column", "row"]}
     alignItems="center"
-    mb="8px"
+    mb={["8px", "48px"]}
   >
     <Text variant="logo">Weather</Text>
     <SearchForm />

@@ -1,11 +1,11 @@
+import "@fontsource/poppins/700.css";
 import { extendTheme } from "@chakra-ui/react";
 import { TextStyles as Text } from "./components/text-style";
-import "@fontsource/poppins";
 
 export const theme = extendTheme({
   fonts: {
-    heading: "Poppins, sans-serif",
-    body: "Poppins, sans-serif",
+    heading: "Poppins",
+    body: "Poppins",
   },
   colors: {
     dark: "#2C2C2C",
