@@ -1,12 +1,11 @@
 import { Box, Text } from "@chakra-ui/react";
-import React from "react";
 
 export const TemperatureDetails = ({
   title,
   subtitle,
 }: {
   title: string;
-  subtitle: string;
+  subtitle: number | string | null | undefined;
 }) => (
   <Box>
     <Text variant="infoTitle">{title}</Text>
