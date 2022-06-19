@@ -1,0 +1,23 @@
+query GetCityByName($name: String!) {
+  getCityByName(name: $name, config: { units: metric }) {
+    id
+    name
+    country
+    weather {
+      summary {
+        title
+      }
+      temperature {
+        actual
+        feelsLike
+      }
+      wind {
+        speed
+      }
+      clouds {
+        humidity
+      }
+      timestamp
+    }
+  }
+}

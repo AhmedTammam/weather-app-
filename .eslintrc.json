@@ -33,6 +33,8 @@
     "no-param-reassign": "off",
     "react/no-unstable-nested-components": "off",
     "react/require-default-props": "off",
+    "no-shadow": "off",
+    "no-use-before-define": "off",
     "import/extensions": [
       "error",
       "never",
